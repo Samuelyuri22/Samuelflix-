@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Samuelflix</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-zinc-900 text-white">
+
+  <header class="bg-zinc-800 p-6 text-center shadow-md">
+    <h1 class="text-4xl font-bold">🎬 Samuelflix</h1>
+    <p class="text-zinc-400 mt-2">Seu catálogo pessoal de filmes e séries</p>
+  </header>
+
+  <main class="p-4 max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+    
+    <!-- Filme Card -->
+    <div class="bg-zinc-800 rounded-xl shadow p-4 hover:scale-105 transition">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Nosferatu_1922_title.jpg" alt="Nosferatu" class="rounded mb-3 w-full h-48 object-cover">
+      <h2 class="text-xl font-semibold">Nosferatu (1922)</h2>
+      <p class="text-zinc-400 text-sm mb-3">Um dos primeiros filmes de terror do cinema mudo.</p>
+      <a href="https://www.youtube.com/watch?v=FC6jFoYm3xs" target="_blank" class="block text-center bg-blue-600 py-2 rounded hover:bg-blue-700 transition">▶️ Assistir</a>
+    </div>
+
+    <!-- Adicione mais filmes abaixo copiando o bloco acima -->
+    
+  </main>
+
+  <footer class="text-center text-sm text-zinc-500 p-6 mt-10">
+    Todos os filmes são de domínio público ou propriedade do criador. 🎥
+  </footer>
+
+</body>
+</html>
